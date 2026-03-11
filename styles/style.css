@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.banner{
+
+.banner {
     width: 1700px;
-    height: 890px;
+    height: 780px;
     margin: 50px auto;
-    background-image: linear-gradient(rgba(7,2,17,0.8),rgba(7,2,17,0)), url(../images/Banner\ Image.png);
+    background-image: linear-gradient(rgba(7, 2, 17, 0.8), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
     border-radius: 16px;
     display: flex;
     justify-content: center;
@@ -17,41 +18,130 @@
     background-repeat: no-repeat;
     color: white;
 }
-.banner-content h4{
+
+.banner-content h4 {
     font-size: 32px;
     margin-bottom: 16px;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 72px;
     font-weight: bold;
     height: 190px;
 }
+
 /* all categories Section Start */
-.categories{
+.categories {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.image{
-    width: 1700px;
-    height: 890px;
+
+.image {
+    width: 800px;
+    height: 590px;
 }
-.categories-content h1{
+
+.categories-content h1 {
     color: #FF0000;
     font-size: 88px;
     font-weight: bold;
     margin-bottom: 48px;
 }
-.categories-content p{
+
+.categories-content p {
     font-size: 24px;
     color: #FF0000;
     margin-bottom: 16px;
 }
-.categories-content h3{
+
+.categories-content h3 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 48px;
 }
+
 /* All categories section End */
+
+/* Midnight Party section Start */
+.midnight-party {
+    width: 1700px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, rgba(7,2,17,1.2), rgba(7,2,17,0.5)), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 120px; */
+    border-radius: 16px;
+    background-position: center;
+}
+
+.mid-discription h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.mid-discription p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.mid-discription a {
+    color: white;
+    /* background-color: black; */
+    font-size: 22px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+/* Date-Time Section Start */
+.place-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 1700px;
+    height: 780px;
+    margin: 50px auto;
+    border-radius: 16px;
+    margin-top: 120px;
+    /* padding: 150px 400px 400px 400px; */
+    background:linear-gradient(
+    180deg,
+    rgb(232, 208, 208) 0%,
+    rgba(255,0,0,0) 50%
+);
+
+    
+}
+.details span{
+    color: #FF0000;
+}
+.details h2{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.prmary-btn button{
+    color: white;
+    width: 170px;
+    height: 60px;
+    opacity: 100%;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border: none;
+    font-size: 20px;
+    border-radius: 9px;
+    margin-bottom: 110px;
+    margin-top: 48px;
+}
